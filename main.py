@@ -1,5 +1,5 @@
 def main():
-    print("Hello from courses!")
+    print("Hello from coding-portfolio!")
 
 
 if __name__ == "__main__":
