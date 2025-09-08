@@ -1,0 +1,2 @@
+#!/bin/sh
+cat /sys/class/thermal/cooling_device0/type
