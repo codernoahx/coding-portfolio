@@ -1,6 +1,6 @@
 # 🚀 Coding Portfolio
 
-A comprehensive collection of my programming journey through various MOOCs, open courseware, books, and coding challenges. This repository demonstrates my continuous learning approach and problem-solving skills across multiple programming languages and concepts.
+A comprehensive collection of my programming journey through various MOOCs, OpenCourseWare, books, and coding challenges. This repository demonstrates my continuous learning approach and problem-solving skills across multiple programming languages and concepts.
 
 ## 📚 Currently Studying
 
@@ -24,7 +24,7 @@ A comprehensive collection of my programming journey through various MOOCs, open
 - **MIT 6.100L** - Introduction to CS and Programming using Python
 - **MIT 6.006** - Introduction to Algorithms
 
-### 📚 Books on Reading List
+### 📚 Books on My Reading List
 
 - **Effective C (2nd Edition)** by Robert C. Seacord
 - **Introduction to Algorithms (4th Edition)** by Cormen, Leiserson, Rivest, and Stein
@@ -51,7 +51,7 @@ coding-portfolio/
 
 ### 🎄 Advent of Code 2024
 
-Participating in the annual programming challenge, solving daily algorithmic puzzles:
+Completed the annual programming challenge, solving daily algorithmic puzzles:
 
 - **Day 1**: Historian Hysteria - List processing and distance calculations
 - **Day 2**: Red-Nosed Reports - Sequence analysis and safety validation
@@ -89,7 +89,7 @@ This repository reflects my commitment to:
 ### Short-term (Next 3 months)
 
 - [ ] Complete MIT 6.0001 problem sets
-- [ ] Finish Advent of Code 2024
+- [ ] Participate in Advent of Code 2025
 - [ ] Master JavaScript fundamentals through Chai aur Code
 - [ ] Complete Python Programming MOOC 2025
 
