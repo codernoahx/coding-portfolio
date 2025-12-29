@@ -1,3 +1,4 @@
+# A function to create directories
 mcd()
 {
 	mkdir -p "$1"
