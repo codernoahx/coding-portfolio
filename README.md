@@ -8,13 +8,10 @@ A comprehensive collection of my programming journey through various MOOCs, Open
 
 - **[MIT 6.0001](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/)** - Introduction to Computer Science and Programming in Python
 - **[Missing Semester](https://missing.csail.mit.edu/)** - The Missing Semester of Your CS Education (MIT)
-- **[Chai aur JavaScript](https://www.youtube.com/@chaiaurcode)** - JavaScript Fundamentals and Web Development
-- **[Python Programming MOOC 2025](https://programming-25.mooc.fi/)** - University of Helsinki
 
 ### 📖 Books Currently Reading
 
 - **Python Crash Course (3rd Edition)** by Eric Matthes
-- **Eloquent JavaScript (4th Edition)** by Marijn Haverbeke
 
 ## 🎯 Upcoming Learning Goals
 
@@ -33,43 +30,50 @@ A comprehensive collection of my programming journey through various MOOCs, Open
 
 ```
 coding-portfolio/
-├── advent-of-code/           # Advent of Code solutions
+├── advent-of-code/              # Advent of Code solutions
 │   └── 2024/
-│       ├── inputs/           # Challenge input files
-│       └── solutions/        # Daily challenge solutions
-├── chai-aur-code/           # Chai aur Code tutorials and exercises
-│   └── chai-aur-js/         # JavaScript fundamentals
-├── MIT/                     # MIT OpenCourseWare materials
-│   ├── missing-semester/    # Command line, version control, debugging
-│   └── MIT-6.0001/         # Python programming fundamentals
-│       ├── challenges/      # Additional practice problems
-│       └── ps0/            # Problem sets
-└── README.md               # This file
+│       ├── inputs/              # Challenge input files
+│       └── solutions/           # Daily challenge solutions
+├── codeforces/                  # Codeforces competitive programming
+│   └── python/                  # Python solutions
+├── MIT/                         # MIT OpenCourseWare materials
+│   ├── Missing-Semester/        # Command line, version control, debugging
+│   │   ├── lecture-1/          # Shell tools and scripting
+│   │   └── lecture-2/          # Shell scripting and tools
+│   └── MIT-6.0001/             # Python programming fundamentals
+│       ├── practice-and-challenges/  # Practice problems
+│       └── ps0/                # Problem sets
+├── main.py                     # Main entry point
+├── pyproject.toml              # Project configuration
+└── README.md                   # This file
 ```
 
 ## 🏆 Highlights
 
 ### 🎄 Advent of Code 2024
 
-Completed the annual programming challenge, solving daily algorithmic puzzles:
+Completed daily programming challenges, solving algorithmic puzzles:
 
 - **Day 1**: Historian Hysteria - List processing and distance calculations
 - **Day 2**: Red-Nosed Reports - Sequence analysis and safety validation
 - **Day 3**: Mull It Over - Regular expressions and string parsing
 - **Day 4**: Ceres Search - 2D grid search algorithms
 
+### 💡 Competitive Programming
+
+Practicing algorithmic problem-solving through platforms like Codeforces to improve problem-solving speed and efficiency.
+
 ### 💻 Skills Demonstrated
 
-- **Python**: Data structures, algorithms, file I/O, string manipulation
-- **JavaScript**: ES6+ features, DOM manipulation, functional programming
+- **Python**: Data structures, algorithms, file I/O, string manipulation, regular expressions
 - **Problem Solving**: Algorithmic thinking, optimization, debugging
+- **Competitive Programming**: Codeforces challenges and contests
 - **Version Control**: Git workflows, collaborative development
 - **Command Line**: Shell scripting, automation, system administration
 
 ## 🔧 Technologies & Tools
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
@@ -89,9 +93,9 @@ This repository reflects my commitment to:
 ### Short-term (Next 3 months)
 
 - [ ] Complete MIT 6.0001 problem sets
-- [ ] Participate in Advent of Code 2025
-- [ ] Master JavaScript fundamentals through Chai aur Code
-- [ ] Complete Python Programming MOOC 2025
+- [ ] Continue Advent of Code participation
+- [ ] Practice competitive programming on Codeforces
+- [ ] Complete Missing Semester
 
 ### Medium-term (Next 6 months)
 
