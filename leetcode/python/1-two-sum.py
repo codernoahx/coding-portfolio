@@ -21,6 +21,6 @@ class Solution(object):
         return []
 
 
-# obj = Solution()
-# result = obj.twoSum([2, 7, 11, 15], 9)
-# print(result)
+obj = Solution()
+result = obj.twoSum([2, 7, 11, 15], 9)
+print(result)
