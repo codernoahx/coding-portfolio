@@ -7,9 +7,8 @@ def main():
     confirmation = [list(map(int, input().split())) for _ in range(n)]
     res = 0
     for confirm in confirmation:
-        if (
-            sum(confirm) >= 2
-        ):  # if there are 2 or more 1's in a list of 3 bits we have to increment res by 1. Ex: [1 + 1 + 0] == [2]
+        # if there are 2 or more 1's in a list of 3 bits we have to increment res by 1. Ex: [1 + 1 + 0] == [2]
+        if sum(confirm) >= 2:
             res += 1
     print(res)
 

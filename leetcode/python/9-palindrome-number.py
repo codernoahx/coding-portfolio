@@ -1,5 +1,6 @@
 class Solution:
     def isPalindrome(self, x: int) -> bool:
+        # Negative numbers aren't palindrome because of the - sign
         if x < 0:
             return False
 

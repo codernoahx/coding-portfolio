@@ -13,9 +13,10 @@ class Solution:
         # string (string[:0] => "") the value's of string 0 and every single string's 1st index. If the value don't match we
         # retun prefix excluding 1st position or if len is 1 of the compared string then we return. We keep on doing i until
         # either the length of compared string goes out of bounds or the character doesn't match of any compared string in
-        # that iteration, and thus we return. If none of these cases ever evaluate to True then, we execute return statement
+        # that iteration, and thus we return. If none of these cases ever evaluate to True then, we execute the return statement
         # at the bottom of the function. If this return statement executes this means all the strings in the list are
-        # same/duplicates, since they're same they've the same length.
+        # same/duplicates, since they're same they've the same length. We cansafely return the first string or maybe
+        # this list has only one string.
 
         # Iterate through every single char of the string at 0th index from the list of strings.
         for i in range(len(strs[0])):

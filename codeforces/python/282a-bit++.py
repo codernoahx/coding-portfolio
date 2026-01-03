@@ -3,9 +3,8 @@ def main():
 
     for _ in range(int(input())):
         op = input().strip()
-        x += (
-            1 if "+" in op else -1
-        )  # Increment by 1 if there's + in operation else decrement it by 1
+        # Increment by 1 if there's + in operation else decrement it by 1
+        x += 1 if "+" in op else -1
     print(x)
 
 

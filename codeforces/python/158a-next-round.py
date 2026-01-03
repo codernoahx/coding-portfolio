@@ -3,9 +3,8 @@ def main():
     # Except if the score is 0 and contestant with score greater than 0 will advance
     n, k = map(int, input().split())  # extract k and n
     scores = input().split()  # split the list of scores by space
-    k_score = int(
-        scores[k - 1]
-    )  # Find the k-th contestants score and -1 because it's 1 indexed
+    # Find the k-th contestants score and -1 because it's 1 indexed
+    k_score = int(scores[k - 1])
     contestants = 0
     # If score of k-th contestant is greater than 0, we add k to total contestants who will advance because the places before k have
     # score greater than k. We won't sub because it's not about palces it's about contestants
@@ -18,9 +17,8 @@ def main():
                 break
             contestants += 1  # Else we add +1
     else:
-        for i in range(
-            0, k
-        ):  # Else if score is == 0 then we start from 0th index and go till k, because k is 0, so we don't need it.
+        # Else if score is == 0 then we start from 0th index and go till k, because k is 0, so we don't need it.
+        for i in range(0, k):
             # If at any point any contestant score is 0, that means the scores of the contestants that will come after him will also
             # have score == 0, and thus we prematurely exit the loop.
             if int(scores[i]) == 0:
