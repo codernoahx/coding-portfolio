@@ -4,6 +4,7 @@
 def main():
     # Divide the annual salary by 12 and store it in monthly_salary
     monthly_salary = int(input("Enter your annual salary: ")) / 12
+    # Percent of the salary you wish to save
     portion_saved = float(
         input("Enter the percent of your salary to save, as a decimal: ")
     )
