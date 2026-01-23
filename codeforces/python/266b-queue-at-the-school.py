@@ -1,29 +1,26 @@
 def main():
     n, t = map(int, input().split())
+    # It is converted to list because strings are immutable in python
     s = list(input())
 
-    l = n - 1
-    # While l is greater than 0, because we'll compare it wit- 1 element in s
-    while l > 0:
-        # If l points to B
-        if s[l] == "B":
-            # Set r is equal to l
-            r = l
-            # Keep on looping until r is less than the l + t, where t is the no. of swaps to be made if all the values lying
-            # between r(excluding) and l + t (excluding) is G
-            while r < l + t and r < n - 1:
-                # If G doesn't lie at r + 1 then we break the loop
-                if s[r + 1] != "G":
-                    break
-                # Else keep on incrementing r by 1
-                r += 1
-            # Swap the B at l index with G at index r
-            s[l], s[r] = s[r], s[l]
-            # Set the pointer to r + 1, because r has the correct B value and we need to look for the next B
-            l = r + 1
-        # Else increment l by 1
-        else:
-            l += 1
+    # We will loop t times which is the number of swaps, we'll loop until t becomes 0
+    while t:
+        # Start at the first index
+        i = 0
+        # Keep on iterating until i is less than n - 1, because we'll be doing i + 1. Sp we need to make sure we don't go out of bounds
+        while i < n - 1:
+            # If the current letter is B and the next letter is G swap them
+            if s[i] == "B" and s[i + 1] == "G":
+                s[i], s[i + 1] = s[i + 1], s[i]
+                # And increment by 2 because i is where we are currently G is at i + 1, we swapped them and they're at correct
+                # position, now it's time to check for i + 2 letter in the list
+                i += 2
+            # Else increment i by 1
+            else:
+                i += 1
+        # Decrement t by 1, as we have done 1 swap and now t - 1 swaps are left to do.
+        t -= 1
+    # Convert them back to string and print it
     print("".join(s))
 
 
