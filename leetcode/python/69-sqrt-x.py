@@ -6,7 +6,6 @@ class Solution:
         while low <= high:
             # mid = low + integer division by 2 of difference of high and low
             mid = low + ((high - low) // 2)
-            print(mid)
             # If mid is the square root we're looking for return mid
             if mid**2 == x:
                 return mid
