@@ -12,7 +12,7 @@ class Solution:
         # If there are no elements in nums2 to add in nums1 that means the rest of the elements in nums1 are sorted, since the
         # the size of nums1 is m + n, so there won't be element left if j elements are added in nums1
         while j >= 0:
-            # If there are still elements left in nums1 to be appended at the back and whcih is greater than the nums2 element
+            # If there are still elements left in nums1 to be appended at the back and which are greater than the nums2 element
             if i >= 0 and nums1[i] > nums2[j]:
                 # Store it at the last
                 nums1[last] = nums1[i]
